@@ -1,0 +1,19 @@
+Delay;Name;OrderType;Article
+5;Franz;Order;Bier
+5;Franz;Order;Cola
+5;Franz;Order;Gulasch
+5;Franz;Order;Gemüsestrudel
+12;Marion;Order;Mineral
+12;Marion;Order;Wiener Schnitzel
+12;Maria;Order;Cola
+12;Maria;Order;Gemüsestrudel
+17;Hugo;Order;Bier
+17;Hugo;Order;Mineral
+18;Hugo;Order;Berner Würstel
+19;Hugo;Order;Wiener Schnitzel
+33;Marion;ToPay;
+36;Franz;Order;Kaffee
+36;Franz;Order;Torte
+44;Maria;ToPay;
+55;Franz;ToPay;
+67;Hugo;ToPay;

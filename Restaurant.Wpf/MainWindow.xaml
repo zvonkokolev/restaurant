@@ -1,0 +1,17 @@
+﻿<controls:MetroWindow x:Class="Restaurant.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:Restaurant.Wpf"
+        mc:Ignorable="d"
+        WindowStyle="ThreeDBorderWindow" BorderThickness="2" 
+        BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}"
+        Title="MainWindow" Height="350" Width="525" Initialized="MetroWindow_Initialized">
+    <Grid>
+        <ScrollViewer >
+            <TextBlock x:Name="TextBlockLog" TextWrapping="Wrap" />
+        </ScrollViewer>
+    </Grid>
+</controls:MetroWindow>
