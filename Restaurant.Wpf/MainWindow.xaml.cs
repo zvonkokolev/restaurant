@@ -9,7 +9,7 @@ namespace Restaurant.Wpf
 	/// </summary>
 	public partial class MainWindow
 	{
-		private const string _pfad = @"C:\Schule\C#-Proekti\3_Semester\9.99\csharp_samples_events_restaurant-template-master\source\Tasks.csv";
+		private const string _pfad = "Tasks.csv";
 
 		public MainWindow()
 		{
